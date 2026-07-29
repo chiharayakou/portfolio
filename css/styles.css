@@ -25,7 +25,7 @@
     --status-live: #22C55E;
 
     /* == Design Tokens == */
-    --font-sans: system-ui, -apple-system, "Segoi UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     --radius: 12px;
     --shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
 }
@@ -49,4 +49,9 @@ body {
     color: var(--text-primary);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: min(1100px, 92%);
+    margin-inline: auto;
 }
