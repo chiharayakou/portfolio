@@ -1,0 +1,13 @@
+{
+    "sections": [
+        {
+            "id": "web",
+            "title": {
+                "ru": "Веб-проекты",
+                "en": "Web Projects",
+                "zh": "网页项目"
+            },
+            "projects": []
+        }
+    ]
+}
