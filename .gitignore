@@ -16,3 +16,5 @@ temp/
 # Local env (if any later)
 .env
 .env.*
+
+start-server.sh
