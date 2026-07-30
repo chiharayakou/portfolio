@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" aria-label="Chihara developer portfolio mark">
+  <defs>
+    
+    <linearGradient id="flow" x1="0%" y1="30%" x2="100%" y2="70%">
+      <stop offset="0%" stop-color="#F7B84B"></stop>
+      <stop offset="28%" stop-color="#E8941A"></stop>
+      <stop offset="62%" stop-color="#C97B12"></stop>
+      <stop offset="100%" stop-color="#8B5A0A"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE9B0" stop-opacity="0.95"></stop>
+      <stop offset="45%" stop-color="#F0B429" stop-opacity="0.55"></stop>
+      <stop offset="100%" stop-color="#C97B12" stop-opacity="0"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="plane" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD78A" stop-opacity="0.7"></stop>
+      <stop offset="100%" stop-color="#E8941A" stop-opacity="0.15"></stop>
+    </linearGradient>
+
+    
+    <radialGradient id="bloom" cx="32%" cy="45%" r="58%">
+      <stop offset="0%" stop-color="#FFC94A" stop-opacity="0.28"></stop>
+      <stop offset="55%" stop-color="#E8941A" stop-opacity="0.1"></stop>
+      <stop offset="100%" stop-color="#0C0A08" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1200" height="520" fill="#0C0A08"></rect>
+
+  
+  <ellipse cx="380" cy="260" rx="460" ry="280" fill="url(#bloom)"></ellipse>
+
+  
+  <path d="M -30 90
+           C 160 20, 310 60, 470 190
+           C 620 310, 780 340, 960 230
+           C 1080 150, 1160 90, 1240 50
+           L 1240 520
+           L -30 520
+           Z" fill="url(#flow)" opacity="0.9"></path>
+
+  
+  <path d="M 580 0
+           L 1240 0
+           L 1240 520
+           L 920 520
+           C 780 360, 660 240, 580 140
+           Z" fill="#120E0A" opacity="0.92"></path>
+
+  
+  <path d="M 720 80
+           L 1120 20
+           L 1180 110
+           L 840 280
+           Z" fill="url(#plane)" opacity="0.45"></path>
+
+  
+  <path d="M 980 300
+           L 1200 210
+           L 1200 420
+           Z" fill="#F5A623" opacity="0.18"></path>
+
+  
+  <path d="M 60 140
+           C 240 55, 390 95, 530 220
+           C 670 340, 820 365, 1000 255" fill="none" stroke="url(#edge)" stroke-width="5.5" stroke-linecap="round" opacity="0.92"></path>
+
+  
+  <path d="M 640 160
+           C 760 210, 880 240, 1040 190" fill="none" stroke="#F0B429" stroke-width="1.8" stroke-linecap="round" opacity="0.45"></path>
+</svg>

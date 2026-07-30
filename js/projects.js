@@ -28,6 +28,18 @@ function renderSection(data) {
             const card = document.createElement('article');
             card.className = 'project-card';
 
+            if (project.image) {
+                const img = document.createElement('img');
+                img.src = project.image;
+                img.alt = project.title.ru;
+                img.className = 'project-card__image';
+                card.appendChild(img);
+            } else {
+                const placeholder = document.createElement('div');
+                placeholder.className = 'project-card__image project-card__image--placeholder';
+                card.appendChild(placeholder);
+            }
+
             const cardTitle = document.createElement('h3');
             cardTitle.textContent = project.title.ru;
 
