@@ -23,3 +23,9 @@ body {
     width: min(1100px, 92%);
     margin-inline: auto;
 }
+
+.project-card__meta,
+.status,
+.project-card__github {
+    user-select: none;
+}
