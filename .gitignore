@@ -17,4 +17,4 @@ temp/
 .env
 .env.*
 
-start-server.sh
+start-server.bat
