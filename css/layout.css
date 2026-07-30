@@ -34,3 +34,54 @@ body {
 main {
     flex: 1;
 }
+
+.projects-grid,
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.project-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    box-shadow: var(--shadow);
+}
+
+.project-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+}
+
+.project-card p {
+    margin: 0 0 1rem;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.status {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.status-live {
+    background-color: var(--status-live);
+    color: #fff;
+}
+
+.status-offline {
+    background-color: var(--status-offline);
+    color: #fff;
+}
+
+.status-development {
+    background-color: var(--status-development);
+    color: #1A1A1A;
+}
