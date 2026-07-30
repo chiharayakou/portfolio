@@ -1,0 +1,43 @@
+Portfolio — Decision Log
+========================
+Last updated: 30 July 2026
+
+Project identity
+----------------
+- Official name: Portfolio (Chihara)
+- Public GitHub repository: chiharayakou/portfolio
+- Licence: (to be decided)
+- Primary purpose: personal portfolio of web projects
+- Target users: potential employers, collaborators, and the wider developer community
+- Default language: Russian (with planned English language switcher)
+
+Architecture & stack
+--------------------
+- Static site for GitHub Pages
+- HTML + custom CSS (no Bootstrap or other UI frameworks)
+- Vanilla JavaScript
+- Multilingual support planned (Russian default)
+- Colour system extracted from a dark-themed reference UI
+
+Key technical decisions
+-----------------------
+- Pure custom CSS instead of Bootstrap for a distinctive professional look
+- CSS split into three files: variables.css, base.css, layout.css
+- Design tokens stored as CSS custom properties
+- Mobile-first responsive approach using modern CSS (min(), logical properties)
+- Footer made to stick to the bottom of the viewport with flexbox
+- Year in the footer is updated automatically via JavaScript
+
+Hosting & constraints
+---------------------
+- Hosting: GitHub Pages (free)
+- Repository must remain public
+- No server-side code (static only)
+
+Open next steps (in order)
+--------------------------
+1. Build the header / navigation
+2. Create the project cards section
+3. Add offline / live status markers for projects
+4. Implement language switcher
+5. Write content for individual project pages
