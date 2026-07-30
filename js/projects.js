@@ -69,6 +69,16 @@ function renderSection(data) {
             status.className = `status status-${project.status}`;
             status.textContent = statusLabels[project.status]?.ru || project.status;
 
+            if (project.github) {
+                const githubLink = document.createElement('a');
+                githubLink.href = project.github;
+                githubLink.className = 'project-card__github';
+                githubLink.textContent = 'GitHub';
+                githubLink.target = '_blank';
+                githubLink.rel = 'noopener noreferrer';
+                card.appendChild(githubLink);
+            }
+
             card.appendChild(cardTitle);
             card.appendChild(cardDesc);
             card.appendChild(status);
