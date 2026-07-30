@@ -23,6 +23,22 @@
                     "status": "development",
                     "url": null,
                     "image": "assets/images/portfolio.svg"
+                },
+                {
+                    "id": "patientcomfort",
+                    "title": {
+                        "ru": "PatientComfort",
+                        "en": "PatientComfort",
+                        "zh": "PatientComfort"
+                    },
+                    "description": {
+                        "ru": "Цифровой дневник пациента (эпилепсия и другие состояния)",
+                        "en": "Digital patient diary for epilepsy and other conditions",
+                        "zh": "患者数字日记（癫痫及其他病症）"
+                    },
+                    "status": "development",
+                    "url": null,
+                    "image": "assets/images/patientcomfort.svg"
                 }
             ]
         }

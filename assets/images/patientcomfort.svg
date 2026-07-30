@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" aria-label="PatientComfort identification mark">
+  <defs>
+    
+    <linearGradient id="crossGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3D8B7A"></stop>
+      <stop offset="50%" stop-color="#2E6B5E"></stop>
+      <stop offset="100%" stop-color="#1A3C34"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="sageHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5D9C0" stop-opacity="0.7"></stop>
+      <stop offset="100%" stop-color="#7BA17B" stop-opacity="0.2"></stop>
+    </linearGradient>
+
+    
+    <linearGradient id="ribbonPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5E0"></stop>
+      <stop offset="45%" stop-color="#9B8BB8"></stop>
+      <stop offset="100%" stop-color="#7A6B9A"></stop>
+    </linearGradient>
+
+    
+    <radialGradient id="supportBloom" cx="50%" cy="50%" r="48%">
+      <stop offset="0%" stop-color="#A8C5A0" stop-opacity="0.14"></stop>
+      <stop offset="70%" stop-color="#2E6B5E" stop-opacity="0.05"></stop>
+      <stop offset="100%" stop-color="#0C1210" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1200" height="520" fill="#0C1210"></rect>
+
+  
+  <g id="atmosphere">
+    <ellipse cx="600" cy="260" rx="380" ry="220" fill="url(#supportBloom)"></ellipse>
+  </g>
+
+  
+  <g id="epilepsy-ribbon">
+    
+    <path d="M 420 280
+             C 380 220, 400 160, 470 150
+             C 530 140, 570 180, 580 230
+             C 560 210, 520 190, 480 200
+             C 440 210, 430 250, 420 280
+             Z" fill="url(#ribbonPurple)"></path>
+    
+    <path d="M 780 280
+             C 820 220, 800 160, 730 150
+             C 670 140, 630 180, 620 230
+             C 640 210, 680 190, 720 200
+             C 760 210, 770 250, 780 280
+             Z" fill="url(#ribbonPurple)"></path>
+    
+    <path d="M 420 280
+             C 480 320, 540 340, 600 335
+             C 660 340, 720 320, 780 280
+             C 740 310, 680 330, 600 325
+             C 520 330, 460 310, 420 280
+             Z" fill="url(#ribbonPurple)" opacity="0.92"></path>
+  </g>
+
+  
+  <g id="medical-plus">
+    
+    <rect x="562" y="145" width="76" height="230" rx="6" fill="url(#crossGreen)"></rect>
+    
+    <rect x="485" y="222" width="230" height="76" rx="6" fill="url(#crossGreen)"></rect>
+    
+    <rect x="574" y="157" width="52" height="206" rx="3" fill="#7BA17B" opacity="0.28"></rect>
+    <rect x="497" y="234" width="206" height="52" rx="3" fill="#7BA17B" opacity="0.28"></rect>
+  </g>
+
+  
+  <g id="cohesion-line">
+    <path d="M 310 180
+             C 400 130, 500 120, 600 150
+             C 700 120, 800 130, 890 180" fill="none" stroke="url(#sageHighlight)" stroke-width="3.5" stroke-linecap="round" opacity="0.55"></path>
+  </g>
+</svg>
