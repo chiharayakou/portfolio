@@ -7,7 +7,24 @@
                 "en": "Web Projects",
                 "zh": "网页项目"
             },
-            "projects": []
+            "projects": [
+                {
+                    "id": "portfolio",
+                    "title": {
+                        "ru": "Портфолио",
+                        "en": "Portfolio",
+                        "zh": "作品集"
+                    },
+                    "description": {
+                        "ru": "Личный сайт-портфолио на GitHub Pages",
+                        "en": "Personal portfolio site on GitHub Pages",
+                        "zh": "基于 GitHub Pages 的个人作品集网站"
+                    },
+                    "status": "development",
+                    "url": null,
+                    "image": null
+                }
+            ]
         }
     ]
-}
+}l
