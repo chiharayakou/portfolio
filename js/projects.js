@@ -46,9 +46,28 @@ function renderSection(data) {
             const cardDesc = document.createElement('p');
             cardDesc.textContent = project.description.ru;
 
+            const statusLabels = {
+                development: {
+                    ru: "Разработка",
+                    en: "Development",
+                    zh: "开发中"
+                },
+                live: {
+                    ru: "Онлайн",
+                    en: "Live",
+                    zh: "已上线"
+                },
+                offline: {
+                    ru: "Офлайн",
+                    en: "Offline",
+                    zh: "离线"
+                }
+
+            }
+
             const status = document.createElement('span');
             status.className = `status status-${project.status}`;
-            status.textContent = project.status;
+            status.textContent = statusLabels[project.status]?.ru || project.status;
 
             card.appendChild(cardTitle);
             card.appendChild(cardDesc);
