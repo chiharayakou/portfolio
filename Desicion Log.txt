@@ -9,35 +9,43 @@ Project identity
 - Licence: (to be decided)
 - Primary purpose: personal portfolio of web projects
 - Target users: potential employers, collaborators, and the wider developer community
-- Default language: Russian (with planned English language switcher)
+- Default language: Russian (English and Chinese planned)
 
 Architecture & stack
 --------------------
 - Static site for GitHub Pages
-- HTML + custom CSS (no Bootstrap or other UI frameworks)
+- HTML + custom CSS (no UI frameworks)
 - Vanilla JavaScript
-- Multilingual support planned (Russian default)
-- Colour system extracted from a dark-themed reference UI
+- Project data stored in projects.json and rendered dynamically
+- Multilingual titles and descriptions (ru / en / zh)
 
 Key technical decisions
 -----------------------
-- Pure custom CSS instead of Bootstrap for a distinctive professional look
-- CSS split into three files: variables.css, base.css, layout.css
-- Design tokens stored as CSS custom properties
-- Mobile-first responsive approach using modern CSS (min(), logical properties)
-- Footer made to stick to the bottom of the viewport with flexbox
-- Year in the footer is updated automatically via JavaScript
+- Pure custom CSS instead of Bootstrap for a distinctive look
+- CSS split into variables.css, base.css, layout.css
+- Design tokens as CSS custom properties
+- Mobile-first responsive grid using modern CSS (minmax, aspect-ratio, logical properties)
+- Footer sticks to the bottom of the viewport with flexbox
+- Project cards generated from JSON
+- Status system: live / offline / development (with colour tokens)
+- Optional github and url fields on projects
+- Images with consistent aspect-ratio and object-fit: cover
+
+Current projects
+----------------
+- Portfolio (this site) — status: development
+- PatientComfort — status: development
 
 Hosting & constraints
 ---------------------
 - Hosting: GitHub Pages (free)
-- Repository must remain public
-- No server-side code (static only)
+- Repository is public
+- No server-side code
 
 Open next steps (in order)
 --------------------------
-1. Build the header / navigation
-2. Create the project cards section
-3. Add offline / live status markers for projects
-4. Implement language switcher
-5. Write content for individual project pages
+1. Improve status + GitHub pill alignment and styling
+2. Add language switcher
+3. Create proper project detail pages or modals (optional)
+4. Add more projects
+5. Final visual polish and accessibility review
