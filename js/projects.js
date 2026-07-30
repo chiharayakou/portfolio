@@ -43,7 +43,7 @@ function renderSection(data) {
             card.appendChild(status);
             grid.appendChild(card);
         });
-        projectsContainer.appendChild('grid');
+        projectsContainer.appendChild(grid);
     });
 }
 
